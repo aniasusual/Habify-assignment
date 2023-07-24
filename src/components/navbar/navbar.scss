@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Work+Sans:wght@100;300&display=swap');
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 14vh;
+    // margin: none;
+    // width: 90%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    // border-bottom: 1px solid red;
+
+   #nav
+   {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+   
+       .logo{
+           img{
+            object-fit: cover;
+            height: 150px;
+            padding: 40px;
+           }
+       }
+   
+       #search{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           height: fit-content;
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+           padding: 30px;
+           input{
+               width: 30vw;
+               height: 5vh;
+               border: none;
+               font-family: 'Work Sans', sans-serif;
+           }
+   
+           #topics{
+               display: flex;
+               padding: 15px;
+               font-family: 'Work Sans', sans-serif;
+           }
+       }
+
+       #ltopics{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-family: 'Work Sans', sans-serif;
+           span{
+               padding: 10px;
+           }
+           div{
+               padding:10px;
+           }
+       }
+
+   }
+
+
+}

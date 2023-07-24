@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Work+Sans:wght@100;300&display=swap');
+
+
+
+#mai{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    // width: 80vw;
+    // background-color: red;
+    #subnav{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        width: 86vw;
+        // background-color: black;
+        #dropdown1{
+            margin: 1vh;
+            select{
+                font-family: 'Work Sans', sans-serif;
+                font-weight: bolder;
+                border: none;
+                background-color: rgb(218, 218, 218);
+                height: 4vh;
+                padding: 5px;
+                border-radius: 2px;
+            }
+        }
+    
+        #dropdown2{
+            margin: 1vh;
+            select{
+                font-family: 'Work Sans', sans-serif;
+                border: none;
+                background-color: rgb(218, 218, 218);
+                height: 4vh;
+                padding: 5px;
+                border-radius: 2px;
+            }
+        }
+
+        #links{
+            display: flex;
+            div{
+                font-family: 'Work Sans', sans-serif;
+                margin: 1vw;
+                .li{
+                    text-decoration: none;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
